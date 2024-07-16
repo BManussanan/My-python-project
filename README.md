@@ -1,0 +1,2 @@
+# LabPractice
+Practice about Python 
