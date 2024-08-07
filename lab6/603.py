@@ -1,0 +1,13 @@
+num1 = int(input('Enter the first number: '))
+num2 = int(input('Enter the second number: '))
+a = num1
+b = num2
+while b != 0:
+    b1 = b
+    mod = a%b
+    a = b1
+    b = mod
+gcd  = a
+lcm = (num1//a) * (num2//a) * a
+print(f"  >> gcd({num1}, {num2}) ={gcd:>7d}")
+print(f"  >> lcm({num1}, {num2}) ={lcm:>7d}")
