@@ -1,0 +1,5 @@
+n = int(input())
+char1 = str(input())
+char2 = str(input())
+output = (char1+char2)*(n//2)+ char1*(n%2)
+print(output)
