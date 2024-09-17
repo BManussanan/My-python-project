@@ -17,3 +17,26 @@ else:
         star(w,i)
         print()
         i += 1
+
+#ทำได้สองแบบ
+def star(wid):
+    j = 0
+    out = ''
+    while j < wid:
+        out += '* '
+        j += 1
+    return out
+
+h = int(input('Enter height: '))
+w = int(input('Enter width: '))
+if h <= 0 or w <= 0:
+    print('Invalid input, program terminates.')
+else:
+    i = 1
+    while i <= h:
+        if i%2 != 0:
+            print(star(w))
+        else:
+            print(f' {star(w)}')
+        i += 1
+

@@ -9,7 +9,7 @@ def result(f):
             j += 1
         return f' = {f}{out}'
 
-num = int(input())
+num = int(input('Enter a number: '))
 i = 0
 fax = 0
 total = 1
